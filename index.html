@@ -3,30 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore personagens do multiverso de Rick and Morty. Busque, filtre e descubra suas origens.">
+  <meta name="description" content="Portfólio de Lucas Souza: desenvolvimento front-end com HTML, CSS e JavaScript e uma aplicação prática de consumo de API.">
   <meta name="theme-color" content="#101411">
-  <title>Portal do Multiverso | Rick and Morty</title>
+  <title>Lucas Souza | Portfólio Front-End</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#explorar">Pular para personagens</a>
+  <a class="skip-link" href="#explorar">Pular para o projeto</a>
   <header class="topbar">
-    <a class="brand" href="index.html" aria-label="Portal do Multiverso, início"><span class="brand-icon" aria-hidden="true">✳</span> PORTAL<span class="brand-light">/ MULTIVERSO</span></a>
-    <span class="course">UNIFECAF <span>·</span> FRONT-END</span>
+    <a class="brand" href="index.html" aria-label="Lucas Souza, início"><span class="brand-icon" aria-hidden="true">✳</span> LUCAS SOUZA<span class="brand-light">/ PORTFÓLIO</span></a>
+    <nav class="portfolio-nav" aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#explorar">Projeto</a><a href="https://github.com/souzarlucas" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
   </header>
   <main>
     <section class="hero" aria-labelledby="titulo">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> ARQUIVO INTERDIMENSIONAL</p>
-        <h1 id="titulo">Um universo de<br>personagens.<br><em>Infinitas histórias.</em></h1>
-        <p class="intro">De gênios incompreendidos a criaturas de outra dimensão. Conheça quem habita o multiverso de Rick and Morty.</p>
-        <a class="explore-link" href="#explorar">Explore o multiverso <span aria-hidden="true">↗</span></a>
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> HTML · CSS · JAVASCRIPT</p>
+        <h1 id="titulo">Lucas Souza.<br>Ideias em código.<br><em>Interfaces na prática.</em></h1>
+        <p class="intro">Bem-vindo ao meu portfólio. Aqui, apresento um projeto de desenvolvimento front-end que combina interface responsiva, JavaScript nativo e consumo de API.</p>
+        <a class="explore-link" href="#explorar">Conheça meu projeto <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="portal-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portal"><span>✳</span></div><span class="coordinate">DIMENSÃO C-137 / PORTAL ATIVO</span></div>
+      <div class="code-art" aria-hidden="true"><span class="code-label">LUCAS SOUZA / FRONT-END</span><span class="code-monogram">&lt;LS /&gt;</span><span class="code-caption">HTML5 &nbsp; + &nbsp; CSS3 &nbsp; + &nbsp; ES6+</span></div>
+    </section>
+    <section id="sobre" class="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">SOBRE O PORTFÓLIO</p><h2 id="about-title">Aprendizado em prática<span class="green">.</span></h2></div>
+      <div><p>Sou Lucas Souza. Este espaço reúne minha atividade de front-end para a UniFECAF: uma aplicação estática desenvolvida com HTML5, CSS3 e JavaScript, sem frameworks ou bibliotecas externas.</p><p>O projeto abaixo demonstra consumo de dados com Fetch API, criação dinâmica de elementos no DOM e adaptação da interface a diferentes tamanhos de tela.</p><a class="explore-link" href="https://github.com/souzarlucas" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a></div>
     </section>
     <section id="explorar" class="explorer" aria-labelledby="characters-title">
-      <div class="section-heading"><div><p class="eyebrow">CONHEÇA OS HABITANTES</p><h2 id="characters-title">Personagens<span class="green">.</span></h2></div><span class="data-source">Dados de The Rick and Morty API</span></div>
+      <div class="section-heading"><div><p class="eyebrow">PROJETO 01 / UNIFECAF</p><h2 id="characters-title">Explorador de personagens<span class="green">.</span></h2></div><span class="data-source">Dados de The Rick and Morty API</span></div>
+      <p class="project-description">Atividade de consumo da The Rick and Morty API. Pesquise personagens, filtre por status e navegue pelos resultados em tempo real.</p>
       <form id="filters" class="filters" role="search">
         <div class="search-field"><label for="search">Buscar por nome</label><input type="search" id="search" name="name" placeholder="Rick, Morty, Summer…" maxlength="120"></div>
         <div class="status-field"><label for="status">Status</label><select id="status" name="status"><option value="">Todos os status</option><option value="alive">Vivo</option><option value="dead">Morto</option><option value="unknown">Desconhecido</option></select></div>
@@ -41,6 +46,6 @@
     </section>
     <noscript><p class="feedback">Ative o JavaScript no navegador para carregar os personagens.</p></noscript>
   </main>
-  <footer><a class="brand" href="#titulo">✳ PORTAL / MULTIVERSO</a><p>Projeto acadêmico · UniFECAF</p><a href="https://rickandmortyapi.com/" target="_blank" rel="noopener noreferrer">Conheça a API ↗</a></footer>
+  <footer><a class="brand" href="#titulo">✳ LUCAS SOUZA</a><p>Portfólio · Projeto acadêmico UniFECAF</p><a href="https://rickandmortyapi.com/" target="_blank" rel="noopener noreferrer">Conheça a API ↗</a></footer>
 </body>
 </html>
